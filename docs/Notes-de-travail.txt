@@ -1,0 +1,16 @@
+Notes de travail
+
+Nombre de ligne : 5000
+
+Entrepots :
+
+Entrepôt A -> 
+Entrepôt B -> 
+Entrepôt C -> 
+
+
+Transporteurs :
+
+Transporteur X -> 77% à l'heure
+Transporteur Y -> 92% à l'heure
+Transporteur Z -> 86% à l'heure
