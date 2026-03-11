@@ -62,4 +62,4 @@ Problématiques métier
 
 Conclusions intermédiaires métier
 
-Ces sections mettront en évidence les principaux enseignements issus de l’analyse et formulera des recommandations opérationnelles destinées à orienter la prise de décision.
+    Ces sections mettront en évidence les principaux enseignements issus de l’analyse et formulera des recommandations opérationnelles destinées à orienter la prise de décision.
