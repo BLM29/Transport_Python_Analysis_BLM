@@ -8,7 +8,7 @@ Lancer le projet
 
     analysis.ipynb
 
-Transport Performance Analysis (Supply Chain)
+Transport Python Analysis 
 
     Projet personnel réalisé dans une démarche d’apprentissage de l’analyse de données appliquée à la supply chain, à l'aide du langage de programmation Python.
 
@@ -62,4 +62,4 @@ Problématiques métier
 
 Conclusions intermédiaires métier
 
-    Ces sections mettront en évidence les principaux enseignements issus de l’analyse et formulera des recommandations opérationnelles destinées à orienter la prise de décision.
+    Ces sections mettront en évidence les principaux enseignements issus de l’analyse et formuleront des recommandations opérationnelles destinées à orienter la prise de décision.
