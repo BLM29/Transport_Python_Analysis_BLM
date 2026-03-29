@@ -1,65 +1,112 @@
-Lancer le projet
+## Analyse de la performance transport de notre Supply Chain
 
-    Générer le dataset :
+Ce projet s’inscrit dans une démarche d’analyse de la performance transport d’une supply chain pour une entreprise de distribution.
+Il est réalisé à titre d’exercice avec Python afin de simuler des données logistiques réalistes et d’en analyser la performance.
 
-    python data_generator.py
+L’objectif est de construire un dataset logistique simulé, puis d’analyser la performance des transporteurs et des entrepôts à l’aide d’indicateurs opérationnels.
 
-    Ouvrir le notebook :
+## Contexte
 
-    analysis.ipynb
+Une entreprise de distribution nationale livre ses clients B2B via plusieurs entrepôts régionaux et collabore avec différents transporteurs externes.
 
-Transport Python Analysis 
+Dans une logique de pilotage de sa supply chain, l’entreprise doit suivre la performance transport afin de :
 
-    Projet personnel réalisé dans une démarche d’apprentissage de l’analyse de données appliquée à la supply chain, à l'aide du langage de programmation Python.
+- Garantir un bon taux de service
+- Réduire les coûts de transport
+- Identifier les transporteurs les plus performants
+- Identifier les entrepôts générant le plus de retards
+- Comprendre l’impact de la distance et du volume sur la performance logistique
+- Objectifs du projet
 
-    L'objectif est de simuler un dataset logistique réaliste, puis d'analyser la performance des transporteurs et des entrepôts à partir de plusieurs indicateurs :
+Ce projet vise à analyser la performance transport afin d’évaluer :
 
-    taux de livraison à l’heure
+- Le taux de livraison à l’heure (On-Time Delivery)
+- Le retard moyen de livraison
+- La performance comparative des transporteurs
+- La performance des entrepôts
+- Le coût de transport
+- Le coût par kilomètre
+- L’impact de la distance sur les délais
+- L’impact du volume mensuel sur la performance transport
+- 
+## Dataset
 
-    retard moyen
+Les données sont générées de manière simulée via un script Python afin de reproduire un environnement logistique réaliste.
 
-    coût de transport
+Le dataset contient notamment :
 
-    coût par kilomètre
+- Des entrepôts
+- Des transporteurs
+- Des régions de livraison
+- Des distances de transport
+- Des volumes mensuels
+- Des dates d’expédition et de livraison
+- Des retards de livraison
+- Des coûts de transport
 
-    impact du volume mensuel sur la performance
+L’objectif est de disposer d’une base de données exploitable pour réaliser des analyses de performance transport.
 
-    Ce projet vise principalement à démontrer l'utilisation de Python pour l'analyse de données supply chain.
+## Indicateurs analysés (KPI)
 
-Technologies utilisées
+Transport :
 
-    - Python
-    - Pandas
-    - Numpy
-    - Matplotlib
-    - Jupyter Notebook
+- Nombre d’expéditions
+- Taux de livraison à l’heure
+- Retard moyen
+- Coût de transport total
+- Coût par kilomètre
+- Performance par transporteur
+- Performance par entrepôt
+- Performance par région
 
-Contexte
+Analyse opérationnelle :
 
-    Une entreprise de distribution nationale livre ses clients B2B via plusieurs entrepôts régionaux et collabore avec différents transporteurs externes.
+- Impact de la distance sur le retard
+- Impact du volume sur la performance
+- Comparaison des transporteurs
+- Identification des axes d’amélioration de la performance logistique
+- Méthodologie
 
-    Dans une logique de maîtrise de sa supply chain, l’entreprise doit garantir un haut niveau de performance opérationnelle afin de réduire ses coûts logistiques tout en assurant un niveau de service optimal auprès de ses clients.
+Le projet est structuré en deux parties :
 
-Objectif du projet
+Génération des données :
 
-    Ce projet vise à analyser la performance transport afin d’identifier :
+- Création d’un dataset logistique simulé
+- Génération des distances, coûts, délais et retards
+- Création des variables de performance (retard, on-time, coût/km, etc.)
 
-    Le taux de livraison à l’heure (On-Time Delivery)
+Analyse des données :
 
-    Les retards moyens observés
+- Analyse via Pandas
+- Calcul des KPI logistiques
+- Analyse par transporteur, entrepôt, région
+- Visualisation des résultats avec Matplotlib
+- Technologies utilisées
 
-    La performance comparative des transporteurs
+Python :
 
-    L’efficacité opérationnelle des entrepôts
+- Pandas
+- Numpy
+- Matplotlib
 
-    L’impact de la distance sur les délais de livraison
+Outils :
 
-Problématiques métier
+- Jupyter Notebook
 
-    Comment améliorer le taux de service tout en maîtrisant les coûts de transport ?
+## Problématiques métier
 
-    Dans quelle mesure la performance des transporteurs et des entrepôts influence-t-elle la performance globale de la supply chain ?
+Comment améliorer le taux de service tout en maîtrisant les coûts de transport ?
 
-Conclusions intermédiaires métier
+Dans quelle mesure la performance des transporteurs et des entrepôts influence-t-elle la performance globale de la supply chain ?
 
-    Ces sections mettront en évidence les principaux enseignements issus de l’analyse et formuleront des recommandations opérationnelles destinées à orienter la prise de décision.
+Quel est l’impact de la distance et du volume sur la performance transport ?
+
+## Conclusions métier
+
+Cette analyse permet de :
+
+- Identifier les transporteurs les plus performants
+- Identifier les entrepôts générant le plus de retards
+- Mesurer l’impact de la distance sur les délais
+- Mesurer l’impact du volume sur la performance
+- Identifier des leviers d’amélioration pour réduire les coûts et améliorer le taux de service
