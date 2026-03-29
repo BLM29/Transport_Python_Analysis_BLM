@@ -1,4 +1,4 @@
-## Analyse de la performance transport de notre Supply Chain
+## Analyse de la performance transport de notre Supply Chain avec Python 
 
 Ce projet s’inscrit dans une démarche d’analyse de la performance transport d’une supply chain pour une entreprise de distribution.
 Il est réalisé à titre d’exercice avec Python afin de simuler des données logistiques réalistes et d’en analyser la performance.
