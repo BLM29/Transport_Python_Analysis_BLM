@@ -83,6 +83,8 @@ Analyse des données :
 - Visualisation des résultats avec Matplotlib
 - Technologies utilisées
 
+## Compétences mises en œuvre
+
 Python :
 
 - Pandas
